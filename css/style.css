@@ -127,6 +127,7 @@ fieldset form div input[type="submit"] {
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
+    
 }
 fieldset form div input:hover, input:focus[type="submit"]{
     background: #1a73e8;
@@ -134,15 +135,17 @@ fieldset form div input:hover, input:focus[type="submit"]{
 }
 
 button{
-    border-radius:70% ;
-    height: 40px;
-    width: 40px;
-    padding: 0;
-    border: 0;
     background-color: #d5473b;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
-    position: absolute;
-    right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    right: 30px;
+    bottom: 30px;
 
 
 }
