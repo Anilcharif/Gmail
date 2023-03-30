@@ -134,17 +134,16 @@ fieldset form div input:hover, input:focus[type="submit"]{
 }
 
 button{
-    border-radius:50% ;
-    height: 50px;
-    width: 50px;
+    border-radius:70% ;
+    height: 40px;
+    width: 40px;
     padding: 0;
     border: 0;
     background-color: #d5473b;
-    font-size: inherit;
     cursor: pointer;
     position: absolute;
     right: 10px;
-    border-top: -10px;
+
 
 }
 
