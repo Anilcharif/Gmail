@@ -18,18 +18,13 @@ header{
 
 }
 
-.navigation li:nth-child(3) a {
-    background-color: #d5473b;
-    color: #fff;
-}
-
 header nav ul{
     width:100%; 
 }
 
 ul li a{
     padding: 2rem;
-    color: #8e8e8e;
+    color: #020202;
     transition: all .2s ease-in-out;
     font-family: 'Open Sans', sans-serif;
 }
