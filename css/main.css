@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+body{
+    font: 1.6rem 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    font-size: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* @media screen and (max-width: 600px) {
+    img {
+        width: 80%;
+    }
+}
+ */
+
+
+
+
+/* theme */
+body {
+
+    font-size: 1.6rem;
+    
+}
+main{
+    background: url("../image/home-hero.jpg")no-repeat fixed center center / cover;
+    position: relative;
+    height: 100vh;
+    
+}
+header{
+    line-height: 4.5rem;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+nav {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hook-gmail{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 1;
+    max-width: 720px;
+     padding: 1rem;
+}
+.hook-gmail h1{
+    padding-bottom: 2rem;
+    font-size: 5rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 0 .9rem #222;
+}
+nav .logo {
+    height: 5.0rem;
+    margin-right: 20px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.nav-buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-buttons a {
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.nav-buttons a:hover {
+    background-color: #dd5347;
+    color: #fff;
+}
+
+section .nav-buttons-hook{
+    text-transform: uppercase;
+    font-size: inherit;
+    color: #fff;
+    background-color: #dd5347;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    line-height: 4.5rem;
+    display: inline-block;
+    width: 30rem;
+    text-align: center;
+}
+button{
+    background-color: #dd5347;
+    position: fixed;
+    bottom:1rem; 
+    right: 1rem;
+    padding:1rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    box-shadow: .3rem 3rem 4rem #fff;
+}
+
+

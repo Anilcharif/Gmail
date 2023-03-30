@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gmail">
+    <link rel="manifest" href="./image/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Gmail</title></head>
+<body>
+    <header>
+        <h1>
+            Une boite de reception <br> entierement repensée
+        </h1>
+    </header>
+    <p> Avec les nouveaux onglets personnnalisables, repérez <br> immediatement les nouveaux messages et choisissez <br> ceux que vous souhaitez lire en priorité. </p>
+    <main>
+        <div class="inner-form" role="form" aria-labelledby="inscription">
+            <fieldset>
+                <legend>
+                    Créer un compte 
+                </legend>
+                <form action="" method="get">
+
+                    <!-- <input type="search" name="q" placeholder="search">
+                    <input type="submit" value="chercher"> -->
+                    <label 
+                    for="user-name">Nom*</label>
+                <input
+                    id="user-name"
+                    type="text"
+                    name="nom"
+                    placeholder="Nom"
+                    autofocus="true"
+                    aria-required="true"
+                    required
+                >
+                <label for="user-lastname">Prénom*</label>
+                <input type="text" id="user-lastname" name="prenom" 
+                placeholder="Prénom" aria-required="true"
+                required>
+
+                <label for="user-lastname">Mail*</label>
+                <input type="text" id="user-lastname" name="prenom" 
+                placeholder="exemple: user01@gmail.com" aria-required="true"
+                required>
+                
+                <label for="user-lastname">Password*</label>
+                <input type="password" id="user-lastname" name="prenom" 
+                placeholder="Password" aria-required="true"
+                required>
+
+                
+                <input type="submit" value="VALIDEZ VOTRE COMPTE">
+
+                </form>
+
+                <button>
+                    <img src="./image/arrow.png" alt="lazy" loading="lazy">
+                </button>
+                
+            </fieldset>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy; - Gmail - 2023
+        </p>
+    </footer>
+</body>
+</html>
