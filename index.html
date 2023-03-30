@@ -1,50 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="FR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Gmail">
-    <link rel="manifest" href="./image/logo.png">
-    <link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Gmail</title>
-
 </head>
+
 <body>
     <header>
-      
- 
-
-    <nav>
-        <img src="./image/mail.png" alt="logo" class="logo" loading="lazy">
-        <h1 class="title">Gmail</h1>
-        <div class="nav-buttons">
-            <a href="#">Pour les Pros</a>
-            <a href="#">Connexion</a>
-            <a href="#">Creer un compte</a>
-        </div>
-    </nav>
-</header>
-
-
+        <a href="#"><img class="logo" src="./asset/gmail_logo.png" alt="logo"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#help">POUR LES PROS</a></li>
+                <li><a href="./connexion.html">CONNEXION</a></li>
+                <li><a href="#account">CRÉER UN COMPTE</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
-
-        <section class="hook-gmail">
-            <h1>Retrouver la fluidité et <br>la simplicité de Gmail <br> sur tous vos appareil </h1>
-            
-            <a href="index2.html" class="nav-buttons-hook">Creer un compte</a>
-                
+        <section>
+            <h2>Retrouvez la simplicite et la fluidite de Gmail sur tout vos appareil</h2>
+            <a class="create" href="#account">CRÉER UN COMPTE</a>
         </section>
 
-        <button>
-            <img src="./image/arrow.png" alt="lazy" loading="lazy">
-        </button>
+<div class="formulaire">
 
-        
+    <h2>Une boîte de réception entièrement repensée</h2>
 
+    <h3>Avec les nouveaux onglets personnalisables, repérez immédiatement les nouveaux messages et choisissez ceux que vous souhaitez lire en priorité.</h3>
+        <fieldset id="account">
+                <legend>Créer un compte</legend>
+                   <form>
+                
+                    
+                        <label for="nom">Nom</label> <br>
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom" aria-required="true"  autofocus> <br>
+                
+                        <label for="prenom">Prénom</label> <br>
+                        <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" aria-required="true"> <br>
+                
+                        <label for="email">Mail</label> <br>
+                        <input type="text" id="email" name="email" placeholder="Votre mail" aria-required="true"> <br>
+                        <label for="password">Mot de passe</label> <br>
+                        <input type="password" id="password" name="psw" placeholder="Votre mot de passe" aria-required="true"> <br>
+                
+                    <div class="bouton">
+                    <input type="submit" id="submit" value="Valider votre compte" aria-label="Valider">
+                    </div>
+                
+                   </form>
+            </fieldset>
+</div>            
     </main>
-    
+
+    <footer>
+
+    </footer>
+
+    <a href="#account" class="scroll_down"> <i class="material-symbols-outlined">
+        expand_less
+    </i></a>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+<script>
+// Rendre le bouton visible lorsque l'utilisateur fait défiler la page
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// Fonction pour remonter en haut de la page
+function topFunction() {
+  document.body.scrollTop = 0; // Pour Safari
+  document.documentElement.scrollTop = 0; // Pour Chrome, Firefox, IE et Opera
+}
+
+// Fonction pour redescendre tout en bas de la page
+function bottomFunction() {
+  document.body.scrollTop = document.body.scrollHeight; // Pour Safari
+  document.documentElement.scrollTop = document.documentElement.scrollHeight; // Pour Chrome, Firefox, IE et Opera
+}
+</script>
 </body>
 </html>
