@@ -113,9 +113,6 @@ form input {
     border: 1px outset #eae9e9;
     margin: 1rem auto;
 }
-.bouton{
-    text-align: center;
-}
 fieldset form div input[type="submit"] {
     display: inline-block;
     background-color: #1a73e8;
@@ -134,5 +131,24 @@ fieldset form div input[type="submit"] {
 fieldset form div input:hover, input:focus[type="submit"]{
     background: #1a73e8;
     
+}
+
+button{
+    border-radius:50% ;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border: 0;
+    background-color: #d5473b;
+    font-size: inherit;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    border-top: -10px;
+
+}
+
+footer p{
+text-align: center;
 }
 
