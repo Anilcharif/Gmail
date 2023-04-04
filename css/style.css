@@ -134,21 +134,24 @@ fieldset form div input:hover, input:focus[type="submit"]{
     
 }
 
-button{
+
+a.fleche{
+    align-items: center;
+    justify-content: center;
     background-color: #d5473b;
     position: fixed;
-    align-items: center;
     display: flex;
-    justify-content: center;
     cursor: pointer;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     right: 30px;
     bottom: 30px;
-
-
 }
+a.fleche img{
+    margin: 0 auto;
+}
+
 
 footer p{
 text-align: center;
