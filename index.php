@@ -1,6 +1,6 @@
 <?php
-    session_start()
-    include_once("/includes/data.inc.php");
+    session_start();
+    include_once("./includes/data.inc.php");
 
 ?>
 
@@ -67,20 +67,15 @@
                     </div>
                 
                    </form>
+
+                   
+                    <?php
+                    //inclusion
+                    include_once "./includes/inscription_user.inc.php";
+                    ?>
             </fieldset>
 </div>    
 
-
-<?php
-//inclusion
-include_once 
-?>
-
-
-
-
-
-  
     </main>
 
     <footer>
