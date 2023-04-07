@@ -47,7 +47,7 @@
     <h3>Avec les nouveaux onglets personnalisables, repérez immédiatement les nouveaux messages et choisissez ceux que vous souhaitez lire en priorité.</h3>
         <fieldset id="account">
                 <legend>Créer un compte</legend>
-                   <form>
+                   <form method="post">
                 
                     
                         <label for="nom">Nom</label> <br>
@@ -57,7 +57,7 @@
                         <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" aria-required="true"> <br>
                 
                         <label for="email">Mail</label> <br>
-                        <input type="text" id="email" name="email" placeholder="Votre mail" aria-required="true"> <br>
+                        <input type="text" id="email" name="mail" placeholder="Votre mail" aria-required="true"> <br>
 
                         <label for="password">Mot de passe</label> <br>
                         <input type="password" id="password" name="psw" placeholder="Votre mot de passe" aria-required="true"> <br>

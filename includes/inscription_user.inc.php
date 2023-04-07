@@ -4,13 +4,13 @@
 
                 //on test les chaines de caractère//
                 if(!$_POST['mail'] || !$_POST['psw']){
-                    echo "<p class=\"warning\">Vous avez obliez votre mail ou password?</p>";
+                    echo "<p class=\"warning\"> Vous devez saisir des caractères</p>";
                     }
                     else if(!filter_var($_email, FILTER_VALIDATE_EMAIL)){ //attention à ma fonction
                         echo "<p class=\"warning\">Mail invalide</p>";
                     }
                     else if(is_numeric($_email)){
-                            echo "<p class=\"warning\">Vous devez saisir des caractères</p>";
+                            echo "<p class=\"warning\">Vous avez oubliez votre mail ou password?</p>";
                     }
                     else{
 

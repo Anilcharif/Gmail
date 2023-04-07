@@ -35,10 +35,10 @@
 
         <fieldset id="account">
                 <legend>Connexion</legend>
-                   <form>
+                   <form method="post">
                 
                         <label for="email">Mail</label> <br>
-                        <input type="text" id="email" name="email" placeholder="Votre mail" aria-required="true"> <br>
+                        <input type="text" id="email" name="mail" placeholder="Votre mail" aria-required="true"> <br>
                         <label for="password">Mot de passe</label> <br>
                         <input type="password" id="password" name="psw" placeholder="Votre mot de passe" aria-required="true"> <br>
                 
