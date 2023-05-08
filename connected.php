@@ -1,6 +1,8 @@
 <?php
     session_start();
     include_once("./includes/data.inc.php");
+    $nom = $_SESSION['nom'];
+    $prenom = $_SESSION['prenom'];
 ?>
 <!DOCTYPE html>
 <html lang="FR">
@@ -10,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/connexion.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/connected.css">
     <title>Gmail</title>
 </head>
 
@@ -26,6 +29,10 @@
     </header>
 
     <main>
+
+    <div class="welcome-message">
+            <h1>Bienvenue <?php echo $prenom . " " . $nom; ?></h1>
+        </div>
 
     <?php
     include_once("./includes/login.inc.php");
